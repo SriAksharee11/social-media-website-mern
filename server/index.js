@@ -53,7 +53,7 @@ app.use("/users", userRoutes);
 app.use("/posts", postRoutes);
 
 /* MONGOOSE SETUP */
-const PORT = process.env.PORT || 6001;
+const PORT = process.env.PORT || 3000;
 mongoose
   .connect('mongodb://127.0.0.1:27017/sri', {
     useNewUrlParser: true,
